@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "guidemeApp",
+    "slug": "guidemeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/128.png",
+    "splash": {
+      "image": "./assets/final1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "useClassicUpdates": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.guidemeApp.guidemeApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/final1.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
